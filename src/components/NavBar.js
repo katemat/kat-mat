@@ -9,7 +9,8 @@ function NavBar() {
       <div className="nav-center">
         <div className="nav-header">
           {/* <img src={logo} alt="logo" /> */}
-          <h4>Full Stack Dev</h4>
+          <h4>KM</h4>
+
           <button className="toggle-btn" type="button">
             <FaAlignRight></FaAlignRight>
           </button>
