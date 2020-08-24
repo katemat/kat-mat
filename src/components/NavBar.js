@@ -3,7 +3,7 @@ import React from 'react'
 import { FaAlignRight } from 'react-icons/fa'
 import PageLinks from '../constants/links'
 
-function NavBar() {
+function NavBar({ toggleSidebar }) {
   return (
     <nav className="navbar">
       <div className="nav-center">
@@ -11,7 +11,7 @@ function NavBar() {
           {/* <img src={logo} alt="logo" /> */}
           <h4>KM</h4>
 
-          <button className="toggle-btn" type="button">
+          <button className="toggle-btn" type="button" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>
           </button>
         </div>
