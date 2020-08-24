@@ -9,7 +9,7 @@ function NavBar({ toggleSidebar }) {
       <div className="nav-center">
         <div className="nav-header">
           {/* <img src={logo} alt="logo" /> */}
-          <h4>KM</h4>
+          <h4 className="logo">KM</h4>
 
           <button className="toggle-btn" type="button" onClick={toggleSidebar}>
             <FaAlignRight></FaAlignRight>

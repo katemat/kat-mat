@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import Projects from './components/Projects'
 import projects from './constants/ProjectsDetails'
 import About from './components/About'
-import ContactPage from './components/ContactPage'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Hero />
         <About title="about me" />
         <Projects projects={projects} title="Recent Projects" showLink />
-        <ContactPage />
+        <Contact />
       </Layout>
     </div>
   )

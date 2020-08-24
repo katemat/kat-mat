@@ -1,6 +1,5 @@
 import React from 'react'
 import axios from 'axios'
-import '../css/ContactForm.css'
 
 class ContactForm extends React.Component {
   state = {
@@ -72,7 +71,7 @@ class ContactForm extends React.Component {
           <textarea
             onChange={(e) => this.setState({ message: e.target.value })}
             name="message"
-            rows="5"
+            rows="4"
             className="form-control"
             type="text"
             placeholder="Your message here..."

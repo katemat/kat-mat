@@ -102,6 +102,13 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-3);
 }
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 2rem;
+  color: var(--clr-primary-8);
+  text-shadow: 1px 2px 3px var(--clr-grey-4);
+}
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
@@ -575,12 +582,7 @@ About Page
 .about-page {
   padding: 7rem 0;
 }
-/* .about-img {
-  margin-bottom: 2rem;
-  height: 20rem;
 
-  border-radius: 50%;
-} */
 .about-text .section-title {
   margin-bottom: 2rem;
   text-align: left;
@@ -624,7 +626,7 @@ Contact Page
   padding: 5rem 0;
 }
 .contact-form {
-  margin-top: 0;
+  margin-top: 40px;
   background: var(--clr-white);
   border-radius: var(--radius);
   text-align: center;
