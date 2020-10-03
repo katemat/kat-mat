@@ -4,7 +4,7 @@ const ProjectsDetails = [
     title: 'COVID-19 Tracker',
     image: '/images/covid.png',
     github: 'https://github.com/katemat/COVID-19-Tracker',
-    url: 'https://covid-19-tracker-f5fac.web.app/',
+    url: 'http://covid19-trackerlive.surge.sh/',
     description:
       'React App Project, live tracker of COVID-19 cases (incliding recovered and number of deaths) worldwide and in individual countries ',
     stack: ['CSS', 'React.js', 'Material UI'],
